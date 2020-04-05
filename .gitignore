@@ -1,0 +1,4 @@
+﻿.vagrant
+packer/packer_cache
+*.exe
+builds
