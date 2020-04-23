@@ -60,7 +60,7 @@
         "{{template_dir}}/scripts/sudoers.sh",
         "{{template_dir}}/scripts/vagrant.sh",
         "{{template_dir}}/scripts/hyperv.sh",
-        "{{template_dir}}/scripts/docker.sh",
+        "{{template_dir}}/scripts/containerd.sh",
         "{{template_dir}}/scripts/kubernetes.sh",
         "{{template_dir}}/scripts/cleanup.sh",
         "{{template_dir}}/scripts/minimize.sh",

@@ -1,3 +1,8 @@
+# Using Vagrant and Hyper-V to create a kubernetes cluster
+
+These scripts help you to create a kubernetes clsuter on Hyper-V.
+Each node runs Ubuntu with containerd as container runtime.
+
 For more information, please read the blog at https://blog.netwatwezoeken.nl/automated-kubernetes-installation-on-hyper-v/
 
 ## Prerequisites 
@@ -32,3 +37,7 @@ Install the vagrant reload plugin
 ## cleanup
 
 `vagrant destroy`
+
+## But I want Docker, not containerd
+
+Just replace `"{{template_dir}}/scripts/containerd.sh",` with `"{{template_dir}}/scripts/docker.sh",`
